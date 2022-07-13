@@ -1,0 +1,24 @@
+.selected {
+  background-color: rgba(26, 235, 120, 0.817);
+  font-weight: 600;
+}
+
+.question {
+  color: #2f5390;
+  margin: 20px 30px 10px;
+}
+
+.answer {
+  padding: 10px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.buttonPosition {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionSelector {
+  margin: 20px;
+}

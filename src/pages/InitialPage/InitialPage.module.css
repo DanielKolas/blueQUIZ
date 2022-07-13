@@ -1,0 +1,13 @@
+.title {
+  color: #2f5390;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.description {
+  color: #2f5390;
+  margin: 10px 30px;
+}
+.description:nth-child(3) {
+  padding-bottom: 50px;
+}

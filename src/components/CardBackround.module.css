@@ -1,0 +1,61 @@
+.mainContainer {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right top, #70e8d2, #6cdbeb);
+  font-family: "Poppins", sans-serif;
+}
+
+.glass {
+  background: rgb(255, 255, 255);
+  min-height: 80vh;
+  width: 70%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  backdrop-filter: blur(2rem);
+  box-shadow: 10px 10px #2f5390;
+}
+
+.circle1,
+.circle2 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  position: absolute;
+}
+.circle1 {
+  height: 20rem;
+  width: 20rem;
+  top: 5%;
+  right: 5%;
+}
+.circle2 {
+  height: 25rem;
+  width: 25rem;
+  bottom: 5%;
+  left: 5%;
+}
+
+.position {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}

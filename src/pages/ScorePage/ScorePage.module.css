@@ -1,0 +1,26 @@
+.title {
+  color: #2f5390;
+  padding: 20px;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.points {
+  color: #2f5390;
+  font-weight: 600;
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.note {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.noteText {
+  color: #2f5390;
+  margin: 0;
+}
